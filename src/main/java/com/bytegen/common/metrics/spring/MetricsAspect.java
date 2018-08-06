@@ -1,4 +1,4 @@
-package com.bytegen.metrics.spring;
+package com.bytegen.common.metrics.spring;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

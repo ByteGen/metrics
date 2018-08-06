@@ -1,8 +1,8 @@
-package com.bytegen.metrics;
+package com.bytegen.common.metrics;
 
-import com.bytegen.metrics.constant.AgentConfig;
-import com.bytegen.metrics.provider.AgentProvider;
-import com.bytegen.metrics.provider.MetricsProvider;
+import com.bytegen.common.metrics.constant.AgentConfig;
+import com.bytegen.common.metrics.provider.AgentProvider;
+import com.bytegen.common.metrics.provider.MetricsProvider;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

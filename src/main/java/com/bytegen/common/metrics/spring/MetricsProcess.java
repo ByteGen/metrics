@@ -1,7 +1,7 @@
-package com.bytegen.metrics.spring;
+package com.bytegen.common.metrics.spring;
 
-import com.bytegen.metrics.MetricsCounter;
-import com.bytegen.metrics.provider.MetricsProvider;
+import com.bytegen.common.metrics.provider.MetricsProvider;
+import com.bytegen.common.metrics.MetricsCounter;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 public class MetricsProcess {
     private static final String SEPARATOR = ".";
 
-    @Pointcut("@annotation(com.bytegen.metrics.spring.MetricsAspect)")
+    @Pointcut("@annotation(com.bytegen.common.metrics.spring.MetricsAspect)")
     public void beanAnnotatedWithMetrics() {
         // omit
     }

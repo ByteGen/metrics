@@ -1,4 +1,4 @@
-package com.bytegen.metrics.common;
+package com.bytegen.common.metrics.model;
 
 import java.util.Iterator;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.bytegen.metrics.constant;
+package com.bytegen.common.metrics.constant;
 
 import org.apache.commons.lang3.StringUtils;
 

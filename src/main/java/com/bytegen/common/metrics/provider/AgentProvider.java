@@ -1,6 +1,6 @@
-package com.bytegen.metrics.provider;
+package com.bytegen.common.metrics.provider;
 
-import com.bytegen.metrics.constant.AgentConfig;
+import com.bytegen.common.metrics.constant.AgentConfig;
 import okhttp3.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

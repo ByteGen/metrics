@@ -1,12 +1,12 @@
-package com.bytegen.metrics;
+package com.bytegen.common.metrics;
 
-import com.bytegen.metrics.common.DoubleGauge;
-import com.bytegen.metrics.databuilder.FalconDataBuilder;
-import com.bytegen.metrics.provider.MetricsProvider;
-import com.bytegen.metrics.common.LongGauge;
+import com.bytegen.common.metrics.model.DoubleGauge;
+import com.bytegen.common.metrics.model.LongGauge;
+import com.bytegen.common.metrics.model.Tag;
+import com.bytegen.common.metrics.constant.CounterConst;
+import com.bytegen.common.metrics.databuilder.FalconDataBuilder;
+import com.bytegen.common.metrics.provider.MetricsProvider;
 import com.google.gson.JsonArray;
-import com.bytegen.metrics.common.Tag;
-import com.bytegen.metrics.constant.CounterConst;
 import com.yammer.metrics.core.*;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

@@ -1,8 +1,8 @@
-package com.bytegen.metrics.databuilder;
+package com.bytegen.common.metrics.databuilder;
 
-import com.bytegen.metrics.provider.MetricsProvider;
-import com.bytegen.metrics.common.Tag;
-import com.bytegen.metrics.constant.CounterConst;
+import com.bytegen.common.metrics.model.Tag;
+import com.bytegen.common.metrics.constant.CounterConst;
+import com.bytegen.common.metrics.provider.MetricsProvider;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.yammer.metrics.core.Metered;

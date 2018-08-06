@@ -1,7 +1,7 @@
-package com.bytegen.metrics.spring;
+package com.bytegen.common.metrics.spring;
 
-import com.bytegen.metrics.provider.MetricsProvider;
-import com.bytegen.metrics.MetricsCounter;
+import com.bytegen.common.metrics.provider.MetricsProvider;
+import com.bytegen.common.metrics.MetricsCounter;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

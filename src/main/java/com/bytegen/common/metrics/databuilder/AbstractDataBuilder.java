@@ -1,6 +1,5 @@
-package com.bytegen.metrics.databuilder;
+package com.bytegen.common.metrics.databuilder;
 
-import com.bytegen.metrics.common.DataBuilder;
 import com.yammer.metrics.core.*;
 
 /**
